@@ -1,0 +1,37 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #1f2937;
+}
+.app { min-height: 100vh; padding: 48px 20px; }
+.container {
+  max-width: 760px;
+  margin: 0 auto;
+  background: white;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0,0,0,.08);
+}
+h1 { margin-top: 0; }
+.description { color: #64748b; }
+.counter-button {
+  border: 0;
+  border-radius: 8px;
+  padding: 12px 18px;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+.counter-button:hover { background: #1d4ed8; }
+.events { display: grid; gap: 14px; margin-top: 24px; }
+.event-card {
+  padding: 18px 20px;
+  border: 1px solid #dbe3ea;
+  border-radius: 10px;
+  background: #f8fafc;
+}
+.event-card h2 { margin: 0; font-size: 19px; }
+.console-note { margin-bottom: 0; font-size: 14px; color: #64748b; }
